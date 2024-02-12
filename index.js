@@ -10,7 +10,7 @@
 // console.log(name);
 // name = "Shubham" ;
 // console.log(name);
-// output:-  Identifier 'name' has already been declared
+
 
 // const age = 22;
 // console.log(age);
@@ -122,13 +122,13 @@
 // console.log(x)
 
 
-let obj1 = {
-    fname : "Shweta",
-    lname : "Chaurasiya",
-    age: 23,
-    skills: ["HTML", "CSS","PYTHON"]
-}
-console.log(obj1.fname)
-for (let x in obj1){
-    console.log(obj1[x]);
-}
+// let obj1 = {
+//     fname : "Shweta",
+//     lname : "Chaurasiya",
+//     age: 23,
+//     skills: ["HTML", "CSS","PYTHON"]
+// }
+// console.log(obj1.fname)
+// for (let x in obj1){
+//     console.log(obj1[x]);
+// }
