@@ -132,3 +132,58 @@
 // for (let x in obj1){
 //     console.log(obj1[x]);
 // }
+
+
+
+/*const student_info = {
+    name: "Shweta",
+    branch : "IT",
+   
+    }
+
+console.log(student_info);
+student_info.age = 22
+
+
+student_info.name = [2001,2002,2003]
+console.log(student_info); */
+
+/*const myString = "Today is Saturday";
+console.log(`17 feb : - ${myString}`);*/
+
+/*const newObj = {
+    name : "fullname",
+    username : { 
+    fname : "Shweta",
+    lname : {
+        lastname: "Chaurasiya"
+    }
+    }
+}
+console.log(newObj.username.fname);*/
+
+/*function Person(name, age){
+    this.name = name;
+    this.age = age;
+
+}
+const newVar = new Person("Shweta", 22)
+console.log(newVar);*/
+
+function Student(name, age, year){
+    this.name = name;
+    this.age = age;
+    this.year = year;
+   
+}
+    const details = new Student("Shweta", 23 , "2nd")
+    //console.log(details);
+
+    details.one = new Student("Saurav", 24, "2nd")
+   // console.log(details.one);
+
+    const dt = new Student("Sailee", 22 , "2nd")
+   // console.log(dt);
+   //console.log(details);
+
+console.log(Student());
